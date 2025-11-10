@@ -1,5 +1,7 @@
 # vue-qrcode-scanner
 
+[English](./README-en.md) | 中文
+
 一个强大的 Vue 3 二维码识别工具，支持高级图像处理和多区域/多尺度扫描。
 
 [![npm version](https://img.shields.io/npm/v/vue-qrcode-scanner.svg)](https://www.npmjs.com/package/vue-qrcode-scanner)
