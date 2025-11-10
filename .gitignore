@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# NPM package - development files
+examples/
+qrcodes/
+qrcode-vue3-demo.html
+start-server.*
+NPM_PACKAGE.md
+PUBLISH.md
+USAGE.md
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+

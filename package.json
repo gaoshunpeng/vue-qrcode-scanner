@@ -1,0 +1,73 @@
+{
+  "name": "vue-qrcode-scanner",
+  "version": "1.0.0",
+  "description": "A powerful Vue 3 QR code scanner with advanced image processing and multi-region/multi-scale scanning",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.d.ts"
+    },
+    "./composables": {
+      "import": "./src/composables/useQRCodeScanner.ts",
+      "types": "./src/composables/useQRCodeScanner.ts"
+    },
+    "./utils": {
+      "import": "./src/utils/index.ts",
+      "types": "./src/utils/index.ts"
+    },
+    "./styles": "./src/styles.css"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "qr-code",
+    "qr-scanner",
+    "qrcode",
+    "barcode",
+    "image-processing",
+    "composable",
+    "vue-composable",
+    "typescript"
+  ],
+  "author": "高顺鹏 <handsome@gaoshunpeng.cn>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaoshunpeng/vue-qrcode-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaoshunpeng/vue-qrcode-scanner/issues"
+  },
+  "homepage": "https://github.com/gaoshunpeng/vue-qrcode-scanner#readme",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": false
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "vue": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

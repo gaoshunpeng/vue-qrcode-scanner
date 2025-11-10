@@ -1,0 +1,34 @@
+# 开发文件
+node_modules/
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# 测试和示例
+qrcode-vue3-demo.html
+qrcodes/
+start-server.bat
+start-server.sh
+examples/
+
+# 开发工具
+.git/
+.gitignore
+*.md
+!README.md
+NPM_PACKAGE.md
+PUBLISH.md
+USAGE.md
+CLEANUP_SUMMARY.md
+
+# 构建文件
+dist/
+build/
+*.map
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
