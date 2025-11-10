@@ -49,3 +49,4 @@ USAGE.md
 *.temp
 .cache/
 
+.npmrc
