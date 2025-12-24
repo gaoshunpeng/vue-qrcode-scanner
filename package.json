@@ -1,6 +1,6 @@
 {
   "name": "vue-qrcode-scanner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A powerful Vue 3 QR code scanner with advanced image processing and multi-region/multi-scale scanning",
   "main": "src/index.ts",
   "module": "src/index.ts",
